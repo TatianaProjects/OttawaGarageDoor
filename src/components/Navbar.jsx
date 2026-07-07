@@ -1,0 +1,91 @@
+
+import { NavLink } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
+import { FaChevronDown } from "react-icons/fa";
+
+
+function Navbar() {
+  return (
+    <header className="navbar">
+      <div className="nav-container">
+
+        <NavLink to="/" className="logo">
+          Ottawa Garage Door
+        </NavLink>
+
+        <nav className="nav-links">
+
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }
+          >
+            Home
+          </NavLink>
+
+          <div className="dropdown">
+
+                <NavLink
+                  to="/reviews"
+                  className={({ isActive }) =>
+                    isActive ? "nav-link active" : "nav-link"
+                  }
+                >
+                  <span>Projects & Reviews </span>
+                 <FaChevronDown className="dropdown-icon" />
+                </NavLink>
+
+                <div className="dropdown-menu">
+
+                  <HashLink smooth to="/reviews#projects">
+                    Recent Projects
+                  </HashLink>
+
+                  <HashLink smooth to="/reviews#reviews">
+                    Customer Reviews
+                  </HashLink>
+
+                  <HashLink smooth to="/reviews#faq">
+                    FAQ
+                  </HashLink>
+
+                </div>
+
+              </div>
+
+          <NavLink
+            to="/contact"
+            className={({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }
+          >
+            Contact
+          </NavLink>
+
+        </nav>
+
+        <div className="nav-actions">
+
+          <a
+            href="tel:+16131234567"
+            className="phone-btn"
+          >
+            +1 (613) 854-2109
+          </a>
+
+          <NavLink
+            to="/contact"
+            className="quote-btn"
+          >
+            Get Free Quote
+          </NavLink>
+
+        </div>
+
+      </div>
+    </header>
+  );
+}
+
+export default Navbar;
