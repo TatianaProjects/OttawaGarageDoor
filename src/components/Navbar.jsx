@@ -2,18 +2,23 @@
 import { NavLink } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import { FaChevronDown } from "react-icons/fa";
+import { useState } from "react";
 
 
 function Navbar() {
+
+const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <header className="navbar">
+
       <div className="nav-container">
 
         <NavLink to="/" className="logo">
           Ottawa Garage Door
         </NavLink>
 
-        <nav className="nav-links">
+        <nav className={menuOpen ? "nav-links mobile-open" : "nav-links"}>
 
           <NavLink
             to="/"
@@ -65,8 +70,16 @@ function Navbar() {
 
         </nav>
 
+        <button
+          className="menu-btn"
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
+          {menuOpen ? "✕" : "☰"}
+        </button>
+
         <div className="nav-actions">
 
+          
           <a
             href="tel:+16131234567"
             className="phone-btn"
