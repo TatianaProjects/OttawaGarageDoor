@@ -37,14 +37,14 @@ const [menuOpen, setMenuOpen] = useState(false);
                     isActive ? "nav-link active" : "nav-link"
                   }
                 >
-                  <span>Projects & Reviews </span>
+                  <span>Our Work </span>
                  <FaChevronDown className="dropdown-icon" />
                 </NavLink>
 
                 <div className="dropdown-menu">
 
                   <HashLink smooth to="/reviews#projects">
-                    Recent Projects
+                    Recent Repair Projects
                   </HashLink>
 
                   <HashLink smooth to="/reviews#reviews">

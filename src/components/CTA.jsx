@@ -2,10 +2,11 @@ function CTA() {
   return (
     <section className="cta">
 
-      <h2>Need Garage Door Repair Today?</h2>
+      <h2>Need Garage Door Service?</h2>
 
       <p>
-        Call now for fast and reliable garage door service in Ottawa.
+        Fast, reliable garage door repair and installation
+        throughout Ottawa and surrounding areas.
       </p>
 
       <a

@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
-import Projects from "../components/Projects";
 import ReviewSection from "../components/ReviewSection";
-import BeforeAfter from "../components/BeforeAfter";
+import CompletedInstallations from "../components/CompletedInstallations";
+import RepairProjects from "../components/RepairProjects";
 import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
 
@@ -9,8 +9,9 @@ function Reviews() {
   return (
     <>
       <Navbar />
-      <Projects />  
-      <BeforeAfter />
+      
+      <RepairProjects />
+      <CompletedInstallations/>
       <ReviewSection />
       <FAQ />
       <Footer />

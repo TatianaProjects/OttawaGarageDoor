@@ -36,6 +36,7 @@ function Contact() {
             name="Name"
             placeholder="Your Name"
             required
+            minLength="2"
           />
 
           <input
@@ -50,12 +51,15 @@ function Contact() {
             name="Phone"
             placeholder="Phone Number"
             required
+            pattern="^\+?[0-9\s()-]{10,20}$"
+            title="Example: 613-854-2109"
           />
 
           <textarea
             name="Message"
             placeholder="Tell us about your garage door issue..."
             required
+            minLength="15"
           ></textarea>
 
           <button type="submit">

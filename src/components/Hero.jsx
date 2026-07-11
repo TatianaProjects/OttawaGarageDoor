@@ -26,9 +26,6 @@ function Hero() {
             Call (613) 854-2109
           </a>
 
-          <a href="#contact" className="quote-btn">
-            Get Free Quote
-          </a>
         </div>
 
       </div>

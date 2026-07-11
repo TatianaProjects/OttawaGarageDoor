@@ -1,3 +1,4 @@
+
 function Footer() {
   return (
     <footer className="footer">
@@ -7,6 +8,16 @@ function Footer() {
         <div className="footer-column">
 
           <h3>Ottawa Garage Door</h3>
+          <p className="footer-company">
+           
+            <span>A Division of <strong>Yunus Construction Global Ltd.</strong></span>
+        </p>
+
+          <ul className="footer-trust">
+            <li>✔ Fully Insured</li>
+            <li>✔ BBB Accredited</li>
+            <li>✔ 24/7 Emergency Service</li>
+          </ul>
 
           <p>
             Professional garage door repair,
@@ -44,7 +55,7 @@ function Footer() {
       </div>
 
       <div className="footer-bottom">
-        © 2026 Ottawa Garage Door. All Rights Reserved.
+        © 2026 Ottawa Garage Door | A Division of Yunus Construction Global Ltd. | All Rights Reserved.
       </div>
 
     </footer>
