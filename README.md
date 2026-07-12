@@ -1,6 +1,6 @@
-# Ottawa Garage Door
+# Ottawa Garage Door Website
 
-A modern, responsive React website for a local garage door company serving Ottawa and surrounding areas.
+A responsive React website for a local garage door repair company in Ottawa.
 
 ## Live Demo
 
@@ -8,23 +8,21 @@ A modern, responsive React website for a local garage door company serving Ottaw
 
 ## Features
 
+- React + Vite
+- React Router
 - Responsive design
-- React Router navigation
-- Dropdown navigation menu
-- Service cards
-- Customer reviews
-- FAQ accordion using React Hooks (`useState`)
-- Contact page
-- Service Areas section
-- Modern dark UI with orange accents
+- Service pages
+- Customer reviews carousel (Swiper)
+- FAQ accordion
+- Contact form
+- Modern UI with React Icons
 
-## Built With
+## Technologies
 
 - React
-- JavaScript (ES6)
 - React Router
-- React Hash Link
+- Swiper
 - React Icons
 - CSS3
-- Vite
+
 
