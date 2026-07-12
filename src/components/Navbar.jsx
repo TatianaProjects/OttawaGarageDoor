@@ -85,7 +85,7 @@ const [menuOpen, setMenuOpen] = useState(false);
             className="phone-btn"
           >
             +1 (613) 854-2109
-          </a>
+          </a> 
 
           <NavLink
             to="/contact"

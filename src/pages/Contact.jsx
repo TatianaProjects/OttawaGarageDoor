@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import ServiceAreas from "../components/ServiceAreas";
+
 
 function Contact() {
   return (
@@ -43,6 +43,7 @@ function Contact() {
             type="email"
             name="Email"
             placeholder="Your Email"
+            title="Please enter a valid email address."
             required
           />
 
@@ -52,6 +53,8 @@ function Contact() {
             placeholder="Phone Number"
             required
             pattern="^\+?[0-9\s()-]{10,20}$"
+            minLength="10"
+            maxLength="20"
             title="Example: 613-854-2109"
           />
 
@@ -70,7 +73,7 @@ function Contact() {
 
 
 
-      <ServiceAreas />
+     
       <Footer />
     </>
   );

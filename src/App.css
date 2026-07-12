@@ -34,7 +34,6 @@ body {
 
 .hero-content {
   max-width: 700px;
-
   position: relative;
   z-index: 2;
   margin-top: -80px;
@@ -74,7 +73,6 @@ body {
   font-weight: 700;
 }
 .services,
-.projects,
 .contact-page,
 .reviews {
   padding-top: 100px;
@@ -129,20 +127,6 @@ body {
 
 .review-card span {
   color: #999;
-}
-.google-btn {
-  display: table;
-  margin: 60px auto 0;
-  text-decoration: none;
-  color: white;
-  border: 1px solid #ff7a00;
-  padding: 16px 30px;
-  border-radius: 8px;
-  transition: .3s;
-}
-
-.google-btn:hover {
-  background: #ff7a00;
 }
 
 .swiper {
@@ -222,7 +206,7 @@ body {
   width: 100%;
   z-index: 1000;
   background: rgba(17,17,17,.95);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(14px);
   border-bottom: 1px solid rgba(255,255,255,.08);
 }
 
@@ -306,7 +290,7 @@ body {
 .contact-page {
   min-height: 100vh;
   padding: 140px 20px 80px;
-  max-width: 700px;
+  max-width: 650px;
   margin: 0 auto;
 }
 
@@ -413,46 +397,6 @@ body {
   margin-bottom: 20px;
 }
 
-.projects {
-  padding: 120px 40px;
-  background: #111;
-}
-
-.projects-grid {
-  max-width: 1400px;
-  margin: 0 auto;
-
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-
-  gap: 30px;
-}
-
-.project-card {
-  background: #1b1b1b;
-  overflow: hidden;
-  border-radius: 14px;
-  transition: .3s;
-}
-
-.project-card:hover {
-  transform: translateY(-6px);
-}
-
-.project-card img {
-  width: 100%;
-  height: 260px;
-  transition: .4s;
-  object-fit: cover;
-}
-.project-card:hover img {
-  transform: scale(1.05);
-}
-
-.project-card h3 {
-  padding: 25px;
-}
-
 .footer {
   background: #111;
   color: white;
@@ -461,12 +405,9 @@ body {
 .footer-container {
   max-width: 1400px;
   margin: auto;
-
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
-
   gap: 60px;
-
   padding: 80px 40px;
 }
 
@@ -488,7 +429,7 @@ body {
 
 .footer-company {
   display:inline-block;
-  margin:18px 0 24px;
+  margin:10px 0 18px;
   padding:8px 16px;
   border:1px solid rgba(255,255,255,.15);
   border-radius:30px;
@@ -668,8 +609,13 @@ body {
   height: auto;
   display: block;
   background: #202020;
-    object-fit: contain;
+  object-fit: contain;
   object-position: center;
+  transition:.35s;
+}
+.installation-card:hover img{
+  transform:scale(1.04);
+
 }
 
 .repair-projects {
@@ -680,7 +626,6 @@ body {
 .repair-grid {
   max-width: 1400px;
   margin: 0 auto;
-
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
@@ -690,6 +635,8 @@ body {
   background: #1d1d1d;
   border-radius: 14px;
   overflow: hidden;
+  display:flex;
+  flex-direction:column;
 
   transition: .3s;
 }
@@ -811,9 +758,7 @@ body {
   }
   
   .nav-actions {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+    display:none;
   }
    .phone-btn {
     white-space: nowrap;
@@ -912,5 +857,9 @@ body {
   row-gap:40px;
 
 }
+.footer-company{
+    font-size: 0.8rem;
+    line-height: 1.4;
+  }
   
 }

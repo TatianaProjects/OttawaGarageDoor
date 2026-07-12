@@ -16,9 +16,9 @@ function Hero() {
         <h1>Garage Door Repair<br />in Ottawa</h1>
 
         <p>
-          Fast, reliable and professional garage
-          door repair services across Ottawa and
-          surrounding areas.
+          Professional garage door repair,
+          installation and maintenance
+          services across Ottawa.
         </p>
 
         <div className="hero-buttons">

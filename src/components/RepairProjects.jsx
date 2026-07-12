@@ -55,7 +55,7 @@ function RepairProjects() {
 
         <span>ON-SITE REPAIRS</span>
 
-        <h2>Keeping Garage Doors Running Smoothly</h2>
+        <h2>Recent Garage Door Repairs</h2>
 
         <p>
           Every repair is completed with safety, reliability, and long-lasting performance in mind.

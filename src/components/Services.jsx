@@ -55,6 +55,14 @@ function Services() {
           <p>Repair and troubleshooting for garage openers.</p>
         </div>
 
+        <div className="service-card">
+          <FaScrewdriver className="service-icon" />
+          <h3>Off-Track Door Repair</h3>
+          <p>Safe and fast realignment for garage doors that have slipped off their tracks.</p>
+        </div>
+
+
+
         
         <div className="service-card">
           <FaWrench className="service-icon" />

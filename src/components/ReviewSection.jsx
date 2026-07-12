@@ -46,7 +46,7 @@ function ReviewSection() {
 
       <div className="section-header">
 
-        <span>CLIENT FEEDBACK</span>
+        <span>CUSTOMER REVIEWS</span>
 
         <h2>What Our Customers Say</h2>
 

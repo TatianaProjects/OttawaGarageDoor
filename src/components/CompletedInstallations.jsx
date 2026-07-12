@@ -52,7 +52,7 @@ function CompletedInstallations() {
 
         <span>NEW INSTALLATIONS</span>
 
-        <h2>Recently Installed Garage Doors</h2>
+        <h2>Completed Garage Door Installations</h2>
 
         <p>
           Explore a selection of professionally

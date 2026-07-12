@@ -10,7 +10,7 @@ function Footer() {
           <h3>Ottawa Garage Door</h3>
           <p className="footer-company">
            
-            <span>A Division of <strong>Yunus Construction Global Ltd.</strong></span>
+            A Division of <strong>Yunus Construction Global Ltd.</strong>
         </p>
 
           <ul className="footer-trust">
