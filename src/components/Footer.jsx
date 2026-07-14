@@ -13,11 +13,28 @@ function Footer() {
             A Division of <strong>Yunus Construction Global Ltd.</strong>
         </p>
 
-          <ul className="footer-trust">
-            <li>✔ Fully Insured</li>
-            <li>✔ BBB Accredited</li>
-            <li>✔ 24/7 Emergency Service</li>
-          </ul>
+        
+        <div className="footer-trust-wrapper">
+
+            <ul className="footer-trust">
+              <li>✔ Fully Insured</li>
+              <li>✔ 24/7 Emergency Service</li>
+            </ul>
+
+          <div className="bbb-section">
+
+            <img
+            src="/images/BBB.jpg"
+            alt="BBB Accredited Business"
+            className="bbb-logo"
+            />
+            <p className="bbb-text">
+                BBB Accredited<br />
+            <strong>Yunus Construction Global Ltd.</strong>
+            </p>
+          </div>
+
+        </div>
 
           <p>
             Professional garage door repair,

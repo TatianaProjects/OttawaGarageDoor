@@ -23,7 +23,7 @@ body {
       rgba(0,0,0,.85),
       rgba(0,0,0,.35)
     ),
-    url("./assets/garage-open.png");
+    url("./images/garage-open.png");
   padding-top:90px;
   background-size: cover;
   background-position: center;
@@ -131,6 +131,10 @@ body {
 
 .swiper {
   padding-bottom: 60px;
+  overflow: visible;
+}
+.swiper-wrapper {
+  padding: 10px 0;
 }
 
 .swiper-pagination-bullet-active {
@@ -459,6 +463,40 @@ body {
     color:#d5d5d5;
     margin-bottom:10px;
     font-weight:600;
+}
+
+.footer-trust-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.footer-trust {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex: 1;
+}
+.bbb-section{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+}
+
+.bbb-logo {
+  width: 70px;
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 10px;
+}
+.bbb-text{
+  margin-top:8px;
+  font-size:.72rem;
+  line-height:1.3;
+  color:#bdbdbd;
 }
 
 .faq {
@@ -860,6 +898,14 @@ body {
 .footer-company{
     font-size: 0.8rem;
     line-height: 1.4;
+  }
+   .footer-trust-wrapper {
+    gap: 15px;
+  }
+
+  .bbb-logo {
+    width: 55px;
+    margin: 12px auto 18px;
   }
   
 }

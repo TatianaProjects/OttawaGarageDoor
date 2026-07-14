@@ -11,7 +11,7 @@ function Contact() {
         <h1>Contact Us</h1>
 
         <form className="contact-form"
-              action="https://formsubmit.co/efimova.tatalex@gmail.com"
+              action="https://formsubmit.co/service@ottawagaragedoor.ca"
               method="POST">
 
           <input
