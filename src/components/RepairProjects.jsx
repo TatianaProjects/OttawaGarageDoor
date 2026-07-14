@@ -3,7 +3,7 @@ function RepairProjects() {
   const repairs = [
 
     {
-      image: "/images/repair1.JPG",
+      image: "/images/repair1.jpg",
       title: "Garage Door Torsion Spring Replacement",
       description:
         "Replaced old worn-out torsion springs with a new balanced spring system for safe and smooth operation."
@@ -24,14 +24,14 @@ function RepairProjects() {
     },
 
     {
-      image: "/images/repair4.JPG",
+      image: "/images/repair4.jpg",
       title: "Panel Replacement",
       description:
         "Removed damaged garage door panels."
     },
 
      {
-      image: "/images/repair5.JPG",
+      image: "/images/repair5.jpg",
       title: "Panel Replacement",
       description:
         "Installed matching replacement panels to restore appearance and functionality."

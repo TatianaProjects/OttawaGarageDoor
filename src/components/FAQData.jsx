@@ -24,11 +24,6 @@ const faqData = [
       "We recommend professional maintenance at least once a year.",
   },
 
-  {
-    question: "What areas do you serve?",
-    answer:
-      "Ottawa, Kanata, Stittsville, Nepean, Barrhaven, Orleans and Gloucester.",
-  },
 ];
 
 export default faqData;
