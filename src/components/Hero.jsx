@@ -22,8 +22,8 @@ function Hero() {
         </p>
 
         <div className="hero-buttons">
-          <a href="tel:+16138542109" className="call-btn">
-            Call (613) 854-2109
+          <a href="tel:+16137968052" className="call-btn">
+            Call (613) 796-8052
           </a>
 
         </div>

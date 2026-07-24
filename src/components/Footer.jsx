@@ -62,9 +62,8 @@ function Footer() {
 
           <h4>Contact</h4>
 
-          <p>(613) 854-2109</p>
+          <p>(613) 796-8052</p>
           <p>(613) 796-7946</p>
-          <p>service@ottawagaragedoor.ca</p>
           <p>Ottawa, Ontario</p>
 
         </div>

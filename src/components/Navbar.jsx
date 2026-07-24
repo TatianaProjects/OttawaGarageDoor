@@ -81,10 +81,10 @@ const [menuOpen, setMenuOpen] = useState(false);
 
           
           <a
-            href="tel:+16131234567"
+            href="tel:+16137968052"
             className="phone-btn"
           >
-            +1 (613) 854-2109
+            +1 (613) 796-8052
           </a> 
 
           <NavLink

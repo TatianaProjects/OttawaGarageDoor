@@ -10,10 +10,10 @@ function CTA() {
       </p>
 
       <a
-        href="tel:+16138542109"
+        href="tel:+16137968052"
         className="cta-btn"
       >
-        Call (613) 854-2109
+        Call (613) 796-8052
       </a>
 
     </section>

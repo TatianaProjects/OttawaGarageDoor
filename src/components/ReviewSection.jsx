@@ -21,9 +21,9 @@ function ReviewSection() {
     },
 
     {
-      name: "Katie DO",
+      name: "KaI",
       text:
-        "Thank you very much for your review. It was a pleasure working with you. We truly appreciate your support and look forward to helping you again.",
+        "My garage door spring broke and Yunus came to save the day. They are professionals that take the time to do the work properly and in a timely manner. He came and fixed my garage faster than I expected. Great service at a fair price.",
     },
 
     {

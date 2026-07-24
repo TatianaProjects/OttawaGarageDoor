@@ -11,7 +11,7 @@ function Contact() {
         <h1>Contact Us</h1>
 
         <form className="contact-form"
-              action="https://formsubmit.co/service@ottawagaragedoor.ca"
+              action="https://formsubmit.co/ottawagaragedoor2022@gmail.com"
               method="POST">
 
           <input
@@ -55,7 +55,7 @@ function Contact() {
             pattern="^\+?[0-9\s()-]{10,20}$"
             minLength="10"
             maxLength="20"
-            title="Example: 613-854-2109"
+            title="Example: 613-796-8052"
           />
 
           <textarea
